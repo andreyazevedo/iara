@@ -1,0 +1,13 @@
+.iara-gallery {
+  overflow: hidden;
+}
+
+.iara-container {
+  display: flex;
+  overflow: hidden;
+  transition: transform .25s cubic-bezier(0,0,.3,1);
+}
+
+.iara-image img {
+  width: 100%;
+}
